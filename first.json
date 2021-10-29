@@ -1,0 +1,10 @@
+{
+"name":"abhay",
+"age":21,
+"admin":true,
+"passport":null,
+"codes":["c++","c","python"],
+"obj":{
+      "name":"zuthor","no":20
+      }
+}
