@@ -6,33 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown Timer</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
 
 </head>
 <body>
-    <h1>New Years Eve !!</h1>
+    <h1>New Years Eve 2022</h1>
     <div class="countdown-container">
         
         <div class="countdown-el days-c">
-            <p class="big-text" id="days">0</p>
+            <p class="big-text" id="day">0</p>
             <span>days</span>
         </div>
         
         
         <div class="countdown-el hours-c">
-            <p class="big-text" id="hours">0</p>
+            <p class="big-text" id="hour">0</p>
             <span>Hours</span>
         </div>
 
         <div class="countdown-el mins-c">
-            <p class="big-text" id="mins">0</p>
+            <p class="big-text" id="min">0</p>
             <span>Mins</span>
         </div>
 
         <div class="countdown-el seconds-c">
-            <p class="big-text" id="seconds">0</p>
+            <p class="big-text" id="sec">0</p>
             <span>Secs</span>
         </div>
     </div>
+
+<script src="script.js"></script> <!-- script after creating ids as it show error script let loaded before the ids -->
 </body>
 </html>

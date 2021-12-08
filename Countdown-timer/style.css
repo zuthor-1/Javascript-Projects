@@ -30,6 +30,8 @@
 
      .countdown-container {
          display: flex;   /* arrange this container items in rows*/
+         flex-wrap: wrap;
+         justify-content: center;
      }
 
      .big-text {
