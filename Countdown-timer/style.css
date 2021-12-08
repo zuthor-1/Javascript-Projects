@@ -1,0 +1,48 @@
+
+
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      
+        background-image: url(background.jpg);  /* image link*/
+        min-height: 100vh;         /* hieght fixed for image*/
+        background-size: 100%;     /* use single image original size to fill background*/
+        background-position: center center;  /* to arrange pic in middle */ 
+    
+        display: flex;            /* to arrange items with different properties*/
+        flex-direction: column;   /* to arrange items in coloum as default is rows like h1 h2 etc*/
+        justify-content: center;  /* to align item in vertical center*/
+        align-items: center;      /* to align item in horizontal center*/
+        
+        
+    }
+     
+    h1 {
+      font-weight: normal;
+      font-size: 4rem;
+      margin-top: -30rem;
+    }
+
+     .countdown-container {
+         display: flex;   /* arrange this container items in rows*/
+     }
+
+     .big-text {
+         font-size: 6rem;
+         line-height: 1;
+         margin: 0 2rem;
+     }
+
+     .countdown-el {
+         text-align: center;   /* align the text under Integers */
+     }
+
+     .countdown-el span
+     {
+         font-size: 1.3rem; /* size of font under numbers */
+     }
