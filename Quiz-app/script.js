@@ -9,7 +9,7 @@ const quizData = [
     },
     {
         question: 'Most Used Programming Language',
-        a: 'JAVA',
+        a: 'JavaScript',
         b: 'PHP',
         c: 'C++',
         d: 'Ruby',
