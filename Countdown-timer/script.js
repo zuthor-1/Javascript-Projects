@@ -5,7 +5,7 @@ const minsE= document.getElementById('min');
 const secondsE=document.getElementById('sec');
 
 
-const newyear = "1 Jan 2023";
+const newyear = "1 Jan 2025";
 
 function format(time)
 {
